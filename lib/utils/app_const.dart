@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 enum ENV_MODE{
   prod,
   dev
@@ -40,4 +41,43 @@ class AppColor {
   static Color statsIconColor = const Color(0xff3fbbfe);
   static Color paymentBackgroundColor = const Color(0xffefcffe);
   static Color paymentIconColor = const Color(0xffef3fff);
+}
+
+
+const kHTMLErrorPage = """
+<html>
+  <head></head>
+  <body>
+    <h1>Not connected to Internet :(</h1>
+  </body>
+</html>
+""";
+
+const kHTMLPlayer = """
+<html>
+  <head></head>
+  <body>
+    <iframe frameborder="0" allowfullscreen width="1280" height="720" src="https://player.infomaniak.com?channel=72457&player=11974"></iframe>
+  </body>
+</html>
+""";
+
+const kHTMLErrorPageNotInstalled = """
+<html>
+  <head></head>
+  <body>
+    <h1>You must be connected to Internet at least one time to install correctly the App.</h1>
+  </body>
+</html>
+""";
+
+
+Future<bool> isPWAInstalled() async {
+  final prefs = await SharedPreferences.getInstance();
+  return prefs.getBool('isInstalled') ?? false;
+}
+
+void setPWAInstalled({bool installed = true}) async {
+  final prefs = await SharedPreferences.getInstance();
+  await prefs.setBool('isInstalled', installed);
 }

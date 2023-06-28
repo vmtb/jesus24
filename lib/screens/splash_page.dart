@@ -59,8 +59,8 @@ class _SplashPageState extends ConsumerState<SplashPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
-                    AppText("Welcome... ", size: 22, weight: FontWeight.w700,)
+                  children:   [
+                    Image.asset("assets/img/logo.png"),
                   ],
                 ),
               ),

@@ -131,8 +131,8 @@ Center loadingError() {
 showLogoutModal(BuildContext context, WidgetRef ref) {
   showModalBottomSheet(
       context: context,
-      shape:   RoundedRectangleBorder(
-          borderRadius: const BorderRadius.only(
+      shape:   const RoundedRectangleBorder(
+          borderRadius: BorderRadius.only(
               topLeft: Radius.circular(20), topRight: Radius.circular(20))),
       backgroundColor: backgroundDefaultScaffold,
       builder: (context) {

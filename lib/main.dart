@@ -10,11 +10,8 @@ import 'screens/splash_page.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  [Permission.location, Permission.storage, Permission.bluetooth, Permission.bluetoothConnect, Permission.bluetoothScan]
-      .request()
-      .then((status) {
-    runApp(const ProviderScope(child: MyApp()));
-  });
+
+  runApp(const ProviderScope(child: MyApp()));
   /*Run app*/
 }
 
