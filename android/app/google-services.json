@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "728219551023",
+    "project_id": "jesus24-d3896",
+    "storage_bucket": "jesus24-d3896.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728219551023:android:280fa0c414ea3687a30dda",
+        "android_client_info": {
+          "package_name": "com.pirc.jesus24tv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728219551023-0eo4l0784k1ktlfedfcopach111nv587.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pirc.jesus24tv",
+            "certificate_hash": "8c84b50db63bb1bfbe435e82f17346bdbc320a88"
+          }
+        },
+        {
+          "client_id": "728219551023-0tfvcvu32fno8rsiooovcj11ghongrcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8ebCAforCDq9Y_Coqd13yb2N9G-ybP_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728219551023-0tfvcvu32fno8rsiooovcj11ghongrcf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
