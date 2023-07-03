@@ -22,10 +22,10 @@ class MyApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp(
-      title: 'Fluttooth',
+      title: 'Jesus 24 TV',
       debugShowCheckedModeBanner: false,
       theme: AppStyles.themeData(ref.watch(darkProvider), context),
-      darkTheme: AppStyles.themeData(true, context),
+      darkTheme: AppStyles.themeData(false, context),
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,

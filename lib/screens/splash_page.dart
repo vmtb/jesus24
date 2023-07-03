@@ -47,7 +47,8 @@ class _SplashPageState extends ConsumerState<SplashPage> {
       },
       controller: _controller,
       child: Scaffold(
-        backgroundColor: AppColor.secondary,
+//        backgroundColor: AppColor.secondary,
+        backgroundColor: Color(0xfffffd03),
         body: Stack(
           children: [
             Positioned(
@@ -60,7 +61,7 @@ class _SplashPageState extends ConsumerState<SplashPage> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children:   [
-                    Image.asset("assets/img/logo.png"),
+                    Image.asset("assets/img/logo_splash.jpg"),
                   ],
                 ),
               ),
