@@ -98,11 +98,11 @@ class _HomePageState extends ConsumerState<HomePage> {
 
                                   return InAppWebView(
                                     key: webViewKey,
-                                    //initialUrlRequest: URLRequest(url: initialUri, iosCachePolicy: cachePolicy),
+                                    initialUrlRequest: URLRequest(url: Uri.parse("https://marcosvitouley.com"), iosCachePolicy: cachePolicy),
                                     // initialUserScripts: UnmodifiableListView<UserScript>([
                                     //   UserScript(source: scrpt, injectionTime: UserScriptInjectionTime.AT_DOCUMENT_END),
                                     // ]),
-                                    initialData: InAppWebViewInitialData(data: kHTMLPlayer),
+                                    //initialData: InAppWebViewInitialData(data: kHTMLPlayer),
                                     onProgressChanged: (controller, progress) {
                                       isLoadingHere = progress < 46;
                                       log("Progesss => $progress");

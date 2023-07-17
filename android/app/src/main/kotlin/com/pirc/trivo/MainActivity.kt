@@ -1,4 +1,4 @@
-package com.pirc.jesus24tv
+package app.jesus24.tv
 
 import io.flutter.embedding.android.FlutterActivity
 

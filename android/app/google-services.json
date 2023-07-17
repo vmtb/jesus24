@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:728219551023:android:280fa0c414ea3687a30dda",
         "android_client_info": {
-          "package_name": "com.pirc.jesus24tv"
+          "package_name": "app.jesus24.tv"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "728219551023-0eo4l0784k1ktlfedfcopach111nv587.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.pirc.jesus24tv",
+            "package_name": "app.jesus24.tv",
             "certificate_hash": "8c84b50db63bb1bfbe435e82f17346bdbc320a88"
           }
         },
