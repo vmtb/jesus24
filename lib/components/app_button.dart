@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../utils/app_styles.dart';
-
+ 
 class AppButton extends StatelessWidget {
   AppButton(
       {Key? key,
@@ -23,7 +21,7 @@ class AppButton extends StatelessWidget {
         height: height,
         width: width,
         decoration: BoxDecoration(
-          color: getBackCont(context),
+          color: Colors.black,
           borderRadius: BorderRadius.circular(width /16),
         ),
         child: child,

@@ -6,9 +6,7 @@ class AppStyles {
   static ThemeData themeData(bool isDarkTheme, BuildContext context) {
     return ThemeData(
       primarySwatch: isDarkTheme ? darkMainPrimaryColor : lightMainPrimaryColor,
-
-      backgroundColor: isDarkTheme ? Colors.white : primaryColor_,
-
+ 
       primaryColor: isDarkTheme ? Colors.black : Colors.white,
 
       //textSelectionHandleColor: isDarkTheme ? Colors.white : Colors.black,
@@ -97,11 +95,7 @@ Color getBlack(BuildContext context){
 
 Color getPrimaryColor(BuildContext context) {
   return Theme.of(context).splashColor;
-}
-
-Color getBackCont(BuildContext context) {
-  return Theme.of(context).backgroundColor;
-}
+} 
 
 Color getScaffCont(BuildContext context) {
   return Theme.of(context).scaffoldBackgroundColor;
