@@ -21,7 +21,7 @@ dependencies:
   form_validator:
   timer_controller:
   shared_preferences: ^2.0.16
-  flutter_flushbar:
+  another_flushbar: 
   rflutter_alert:
   enum_to_string:
   google_fonts:
@@ -32,8 +32,7 @@ dependencies:
   flutter_blue_plus:
   permission_handler:
   flutter_inappwebview:
-
-  flutter_local_notifications: # ^9.8.0
+ 
   connectivity_plus:
 
   flutter_localizations:
