@@ -39,7 +39,7 @@ android {
    
     signingConfigs {
         create("release") {
-            storeFile = file("$rootDir/app/chofele.jks")
+            storeFile = file("$rootDir/app/jesus24.jks")
             storePassword = keystoreProperties["storePassword"] as String
             keyAlias = keystoreProperties["keyAlias"] as String
             keyPassword = keystoreProperties["keyPassword"] as String
@@ -51,7 +51,7 @@ android {
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName("release")
             // isMinifyEnabled = true
             // isShrinkResources = true
         }

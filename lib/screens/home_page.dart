@@ -271,7 +271,7 @@ class _HomePageState extends ConsumerState<HomePage> with TickerProviderStateMix
                                         key: webViewKey,
                                         initialData: InAppWebViewInitialData(data: kHTMLPlayer),
                                         onProgressChanged: (controller, progress) {
-                                          isLoadingHere = progress < 46;
+                                          isLoadingHere =  progress < 80;
                                           log("Progesss => $progress");
                                           setState(() {});
                                         },
