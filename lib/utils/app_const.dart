@@ -57,7 +57,7 @@ const kHTMLPlayer = """
 <html>
   <head></head>
   <body>
-    <iframe frameborder="0" allowfullscreen width="1280" height="720" src="https://player.infomaniak.com?channel=72457&player=11974"></iframe>
+    <iframe frameborder="0" allowfullscreen allow="autoplay; fullscreen" width="1280" height="720" src="https://jesus24tvlive.duckdns.org"></iframe>
   </body>
 </html>
 """;
